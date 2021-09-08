@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Server>
+	<Connector port="9099" action="start" />
+	
+	<Connector port="9999" action="shutdown" />
+
+	<Executor name="DyThreadPool" maxThreadNum="150" initThreadNum="10" waitQueueLength="-1"
+			  minThreadNum="4" />
+</Server>
